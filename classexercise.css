@@ -1,0 +1,132 @@
+.container{
+    max-width: 80%;
+    margin: auto;
+    font-family: Roboto;
+    background-image: url("pic1.jpg");
+    color: white;
+    padding: 10px;
+}
+
+.header{
+    background-color:grey;
+    width: 100%;
+    display: inline-flex;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+
+}
+
+.nav{
+    float: right;
+
+}
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav ul li{
+    margin: 5px;
+}
+.nav ul li a{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    background-color:blue;
+    color: black;
+}
+
+.info{
+    display: inline-flex;
+    margin: 5px;
+    padding: 10px;
+    background-color: grey;
+    width: 98%;
+}
+
+.infoitems{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    width: 25%;
+}
+
+.infoitems:hover{
+    background-color: blueviolet;
+    color: black;
+
+}
+
+.profile{
+    display: inline-flex;
+    width: 100%;
+    background-color: grey;
+    float: right;
+}
+
+.video{
+    float:left;
+    padding: 10px;
+    background-color: black;
+    margin: 5px;
+}
+
+.founder{
+    float: right;
+    padding: 20px;
+    width: 75%;
+    background-color: black;
+    margin: 5px;
+}
+
+.founder h2{
+    text-align: center;
+}
+
+.founder h2 p{
+    text-align: center;
+}
+
+.footer{
+    display: inline-block;
+    width: 98%;
+    background-color: grey;
+    margin: 5px;
+    padding: 10px;
+}
+
+.subscribe{
+    float:left;
+    padding: 20px;
+    margin: 20px;
+}
+
+button{
+    border-radius: 10px;
+    color: blue;
+    justify-content: center;
+}
+.more{
+    display: flex;
+}
+
+.more p{
+    background-color: black;
+    margin: 5px;
+}
+.more img{
+    padding-left:  25%;
+}
+
+
